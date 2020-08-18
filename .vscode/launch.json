@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+  {
+      "name": "Listen for rdebug-ide",
+      "type": "Ruby",
+      "request": "attach",
+      "remoteHost": "127.0.0.1",
+      "remotePort": "1234",
+      "remoteWorkspaceRoot": "${workspaceRoot}"
+  },
+  {
+      "name": "Debug Local File",
+      "type": "Ruby",
+      "request": "launch",
+      "program": "${workspaceRoot}/main.rb"
+  },
+      {
+          "name": "Debug Attach",
+          "type": "Ruby",
+          "request": "attach",
+          "cwd": "${workspaceRoot}",
+          "remoteWorkspaceRoot": "${workspaceRoot}",
+          "remoteHost": "127.0.0.1",
+          "remotePort": "1234"
+      }
+  ]
+}
