@@ -1,10 +1,6 @@
 # Ruby: Bubble Sorting
 > The purpose of this project was to create two bubble sorting algorithms; The first bubble sorting algorithm was implement as a normal method, while the second algorithm was meant to work as a block by making use of the "yield" keyword.
 
-## Screenshot of the code
-
-![image](https://user-images.githubusercontent.com/43865875/90529442-0552f480-e174-11ea-9542-bc77641f8374.png)
-
 ## Screenshot of the output
 
 ![image](https://user-images.githubusercontent.com/43865875/90529702-4e0aad80-e174-11ea-9fb6-739b6bf92746.png)
