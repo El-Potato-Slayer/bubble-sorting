@@ -9,8 +9,6 @@ def bubble_sort(arr)
   end
 end
 
-puts bubble_sort([3, 0, 128 - 3, -65, 45, 4, 5, 1, 10, 2])
-
 def bubble_sort_by(arr)
   arr.each_with_index do |_value, _i|
     arr.each_with_index do |_val, index|
@@ -20,7 +18,7 @@ def bubble_sort_by(arr)
       difference.positive? && (arr[index], arr[index.next] = arr[index.next], arr[index])
     end
   end
-  puts arr
+  arr
 end
 
 bubble_sort_by(%w[hi hello hey]) do |left, right|
